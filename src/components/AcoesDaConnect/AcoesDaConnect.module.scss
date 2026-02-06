@@ -1,0 +1,28 @@
+section {
+    
+    height: 70vh;
+
+
+}
+
+article {
+    height: 30vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  h1 {
+    font-size: 3.75rem;
+    color: #205691;
+    font-weight: 700;
+  }
+
+  p {
+        font-size: 1.5rem;
+    font-weight: 400;
+    width: 50vw;        // controla a quebra de linha
+    text-align: center;
+  }
+}

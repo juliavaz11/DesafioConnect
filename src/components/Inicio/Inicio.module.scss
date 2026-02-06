@@ -1,0 +1,29 @@
+.principal {
+    
+    display: flex;
+    justify-content: space-evenly;
+    height: 90vh;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 40vw;
+
+    }
+
+    h1 {
+        color: #205691;
+        font-size: 5.5rem;
+    }
+
+    p {
+        color: #205691;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+}
+
+.ImgInicial {
+    width: 40vw;
+}

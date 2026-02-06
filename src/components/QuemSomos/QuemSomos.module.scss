@@ -1,0 +1,34 @@
+.quemSomos {
+    // border: solid;
+    height: 90vh;
+    display: flex;
+   // justify-content: start;
+
+    .imgBackground {
+        height: 90vh;
+     //  border: solid red;
+        width: 65vw;
+    }
+
+    
+}
+.textoQuemSomos {
+     //  border: solid green;
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        h1 {
+     //       border: solid;
+            color: #205691;
+            font-size: 2.5rem;
+        }
+        
+        p {
+       // border: solid;
+            font-size: 1.25rem;
+            line-height: 2; 
+            height: 70vh;
+        }
+}

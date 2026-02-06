@@ -17,4 +17,27 @@
         font-size: 1.75rem;
     }
 
+
+}
+
+@media(min-width: 201px) and (max-width: 500px){
+    .navBar {
+
+        a {
+            font-size: 0.8rem;
+        }
+        img{
+            height: 4vh;
+        }
+
+        .imgPerfil{
+            height: 6vh;
+        }
+
+    }
+}
+.imgPerfil{
+    height: 10vh;
+    border-radius: 55px;
+    border: solid 5px #00AAFF;
 }

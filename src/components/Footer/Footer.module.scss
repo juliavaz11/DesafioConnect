@@ -1,0 +1,29 @@
+footer {
+    background-color: #205691;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+    color: #ffffff;
+}
+.textoFooter {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+}
+.redesSociais {
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+    height: 5vh;
+    
+}
