@@ -1,27 +1,58 @@
 .quemSomos {
-    height: 90vh;
+    height: 90vh; 
     display: flex;
     background-image: url(../../assets/backgroundQuemSomos.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    justify-content: flex-end;
+    justify-content: flex-end; 
     align-items: center;
+    
 }
-.boxTexto{
+
+.boxTexto {
     width: 42%;
-    height: 75vh;
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 1.5rem;
 
-    h1{
+    h1 {
         color: #205691;
         font-size: 2.5rem;
         width: 70%;
     }
-    p{
+
+    p {
         font-size: 1.5rem;
         width: 85%;
+    }
+}
+
+
+@media (min-width: 201px) and (max-width: 500px) {
+
+    .quemSomos {
+        background-image: none;
+        justify-content: center;   
+        align-items: center;      
+    }
+
+    .boxTexto {
+        width: 100%;
+        align-items: center; 
+        text-align: center;
+    }
+
+    .boxTexto h1 {
+        width: 100%;
+        font-size: 1.6rem;
+    }
+
+    .boxTexto p {
+        width: 95%;
+        font-size: 0.95rem;
+
     }
 }

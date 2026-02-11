@@ -6,7 +6,7 @@ footer {
     justify-content: space-between;
 }
 
-.footer {
+.conteudoFooter {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -26,4 +26,29 @@ footer {
     justify-content: space-around;
     height: 5vh;
     
+}
+@media (min-width: 201px) and (max-width: 500px){
+    footer {
+        flex-direction: column-reverse;
+        height: 40vh;
+        align-items: center;
+        justify-content: space-around;
+
+        .conteudoFooter {
+            width: 60%;
+            
+            h2 {
+                font-weight: 400;
+            }
+        }
+    }
+    .textoFooter {
+        width: 90%;
+        font-size: 0.75rem;
+        font-weight: 400;
+    }
+
+    .redesSociais {
+        width: 80%;
+    }
 }

@@ -5,7 +5,7 @@ function Perfil() {
   return (
     <section className={styles.containerTelaPerfil}>
       <article>
-        <img src={ImgPerfil} alt="" />
+        <img src={ImgPerfil} alt="Imagem do usuário" />
         <div className={styles.cardInfo}>
           <h2>Julia Vaz</h2>
           <h3>Voluntária Ativa</h3>

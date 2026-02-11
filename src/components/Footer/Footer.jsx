@@ -8,18 +8,18 @@ import ImgWpp from "../../assets/whatsapp.png"
 function Footer(){
     return(
        <footer>
-        <div className={styles.footer}>
+        <div className={styles.conteudoFooter}>
         <img className={styles.logo}src={ImgLogo} alt="Logo da Connect" />
         <h2>Connect</h2>
        
         </div>
          <p className={styles.textoFooter}>© 2026 Vai na Web & Empower. Todos os direitos reservados. Projeto destinado exclusivamente a fins educativos.</p>
-         <div className={styles.redesSociais}>
-            <img src={ImgInsta} alt="" />
-            <img src={ImgLinkedin} alt="" />
-            <img src={ImgWpp} alt="" />
+         <nav className={styles.redesSociais}>
+            <img src={ImgInsta} alt="ícone do Instagram" />
+            <img src={ImgLinkedin} alt="Ícone do Linkedin" />
+            <img src={ImgWpp} alt="Ícone no WhatsApp" />
 
-         </div>
+         </nav>
        </footer>
     )
 }
